@@ -1,0 +1,58 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.container1{
+  width: 100vw;
+}
+form input{
+  background-color: tra;
+}
+.nav{
+  background-color: rgb(68, 67, 67);
+  color: rgb(244, 245, 247);
+  width: 100vw;
+  height: 60px;
+  position: fixed;
+}
+
+img{
+  width: 40px;
+}
+.main{
+  display: flex;justify-content: center;flex-direction: column;align-items: center;
+padding-top: 60px;
+  
+}
+.profile{
+  width: 100vw;
+padding-top: 20px;
+  display: flex;justify-content: center;flex-direction: row;
+  background-color: rgb(56, 55, 55);
+ 
+}
+.profile:hover{
+  background-color: #737272;
+}
+.profile p,.profile h6{
+  color: #ece8e8;
+}
+.profile img{
+  width:50px;
+  height: 50px;
+  margin-right: 20px;
+}
+@media (max-width:580px) {
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    background-color: rgb(68, 67, 67);
+  }
+  img{
+    width: 25px;
+  }
+  
+}
